@@ -1,0 +1,13 @@
+{
+  "name": "postcss-bundle-mediaquery",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to bundle media query",
+  "keywords": [
+    "postcss-plugin"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^6.0.22"
+  }
+}
