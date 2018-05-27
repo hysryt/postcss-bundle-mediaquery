@@ -1,5 +1,5 @@
 {
-  "name": "postcss-bundle-mediaquery",
+  "name": "@hysryt/postcss-bundle-mediaquery",
   "version": "1.0.0",
   "description": "PostCSS plugin to bundle media query",
   "keywords": [

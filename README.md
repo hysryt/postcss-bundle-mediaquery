@@ -33,7 +33,7 @@ PostCSS plugin to bundle media queries that have same rules.
 /* postcss.config.js */
 module.exports = () => ({
   plugins: {
-    'postcss-test': {
+    '@hysryt/postcss-bundle-mediaquery': {
       'comments': {
         '(max-width: 767px)': 'for smartphone',
         '(min-width: 768px)': 'for pc',
