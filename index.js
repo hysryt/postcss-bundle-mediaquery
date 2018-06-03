@@ -2,7 +2,7 @@ var postcss = require('postcss')
 
 module.exports = postcss.plugin('postcss-bundle-mediaquery', function (options) {
   return function (css) {
-    const comments = options.comments || {};
+    const comments = options ? options.comments || {} : {};
 
     // CSSからメディアクエリのみを取得。
     // 取得の際、同じメディアクエリは一つにまとめられる。
